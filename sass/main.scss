@@ -1,0 +1,66 @@
+body{
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(to bottom, #003399 0%, #0099ff 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    .main{
+        font-size:5rem;
+    }
+    .seperator{
+        margin-left: 2em;
+    }
+    .container{
+        margin: 13% 10% 10%;
+        border: 1px solid white;
+        border-radius: 1px;
+    }
+}
+
+header{
+    margin: 5% 10% -5%;
+}
+
+.contend{ 
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    .weather__temp{
+        display: flex;
+        width: 30%;
+        .temp__temp{
+            margin-top: -40px;
+        }
+        svg{
+            margin-right: 30%;
+            margin-top: 40px;
+        }
+        .sub{
+            margin-top: -80px;
+        }
+    }
+    .weather__others{
+        display: flex;
+        width: 10%;
+        .main{
+            margin-top: .5em;
+        }
+        .second{
+            margin-top: 2em;
+        }
+    }
+}
+
+ul{
+    list-style-type: none;
+    .main{
+        font-size:1.4rem;
+        font-weight:bold;
+    }
+}
+

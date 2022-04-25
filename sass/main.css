@@ -1,0 +1,91 @@
+body {
+  height: 100%;
+  margin: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#003399), to(#0099ff));
+  background: linear-gradient(to bottom, #003399 0%, #0099ff 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+body .main {
+  font-size: 5rem;
+}
+
+body .seperator {
+  margin-left: 2em;
+}
+
+body .container {
+  margin: 13% 10% 10%;
+  border: 1px solid white;
+  border-radius: 1px;
+}
+
+header {
+  margin: 5% 10% -5%;
+}
+
+.contend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.contend .weather__temp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+}
+
+.contend .weather__temp .temp__temp {
+  margin-top: -40px;
+}
+
+.contend .weather__temp svg {
+  margin-right: 30%;
+  margin-top: 40px;
+}
+
+.contend .weather__temp .sub {
+  margin-top: -60px;
+}
+
+.contend .weather__others {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+}
+
+.contend .weather__others .main {
+  margin-top: .5em;
+}
+
+.contend .weather__others .second {
+  margin-top: 2em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul .main {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+/*# sourceMappingURL=main.css.map */
