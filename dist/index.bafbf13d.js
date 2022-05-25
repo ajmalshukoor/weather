@@ -609,7 +609,8 @@ const findGeoLocation = async function(place) {
     } catch (err) {
         console.log(err);
     }
-} // findGeoLocation(['London', 'CA', 'US', 5]);
+} ////test 
+ // findGeoLocation(['London', 'CA', 'US', 5]);
  // export const getCoords = function(pos){
  //     const {latitude, longitude} = pos.coords;
  // }
@@ -671,6 +672,7 @@ class WeatherAppView {
     _parentElement = document.querySelector('.content');
     _input = document.querySelector('.search');
     _data;
+    //render data using data from model
     render(data) {
         if (!data) return;
         this._data = data;
@@ -681,6 +683,7 @@ class WeatherAppView {
             this._parentElement.insertAdjacentHTML('beforeend', markup);
         }
     }
+    //remove the old rendered data
     _clear() {
         const container = this._parentElement.querySelector('.container');
         if (container != null) container.remove();
@@ -701,6 +704,7 @@ class WeatherAppView {
     //         }
     //     });
     // }
+    //handler for searching weather using place, province, country
     addHandlerFind(handler) {
         const input = this._parentElement.querySelector('.search');
         this._parentElement.querySelector('#myForm').addEventListener('submit', function(e) {
@@ -716,6 +720,7 @@ class WeatherAppView {
             input.value = '';
         });
     }
+    //handler for live location result
     addHandlerLive(handler) {
         this._parentElement.querySelector('.btn__live').addEventListener('click', handler);
     }

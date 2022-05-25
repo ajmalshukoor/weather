@@ -4,7 +4,7 @@
 162C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\css-tree\lib\syntax\node\SelectorList.js121436361000000000 0
 152C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\yaml\browser\dist\parse-cst.js121436361000000000 0
 152C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\binary-extensions\package.json132952240436373960 0
-121C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\src\model.js132961878946876397 0
+121C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\src\model.js132979939246333815 0
 126C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\package-lock.json132952240447523969 0
 121C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\package.json132960819942895107 0
 142C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\type-fest\index.d.ts121436361000000000 0
@@ -13,7 +13,7 @@
 146C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\abortcontroller-polyfill132952233020138824 1
 160C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\@parcel\transformer-babel\lib\types.js121436361000000000 0
 139C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\readdirp\index.js121436361000000000 0
-113C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\dist132979147030303500 1
+113C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\dist132979939247363818 1
 128C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\@types132952233008988470 1
 150C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\node-addon-api\noexcept.gypi121436361000000000 0
 153C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\domelementtype\lib\esm\index.js121436361000000000 0
@@ -22,7 +22,7 @@
 142C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\htmlnano\lib\modules132952232968148392 1
 165C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\caniuse-lite\data\features\pad-start-end.js121436361000000000 0
 158C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\caniuse-lite\data\features\dnssec.js121436361000000000 0
-119C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\index.html132961883587792849 0
+119C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\index.html132979837953206637 0
 151C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\@mischnic\json-sourcemap\dist132952232973128390 1
 193C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages.ps1132952233027233229 0
 152C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\lmdb\dependencies\lmdb-data-v1132952232965138397 1
@@ -75,7 +75,7 @@
 159C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\svgo\plugins\moveGroupAttrsToElems.js121436361000000000 0
 138C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\base-x\README.md121436361000000000 0
 130C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\readdirp132952240438013949 1
-126C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\src\controller.js132973489206183718 0
+126C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\src\controller.js132979833539660705 0
 159C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\terser\node_modules\commander\typings132952232967478409 1
 164C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\terser\node_modules\source-map\lib\wasm.js131709648810000000 0
 174C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\@parcel\core\test\fixtures\library-custom-scopehoist132952232984038394 1
@@ -93,7 +93,7 @@
 136C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\yaml\util.d.ts121436361000000000 0
 145C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\source-map\package.json132952233024623269 0
 149C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\@parcel\fs\src\OverlayFS.js121436361000000000 0
-135C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\src\view\weatherAppView.js132979147084175951 0
+135C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\src\view\weatherAppView.js132979838836656063 0
 165C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\@parcel\package-manager\src\NodeResolver.js121436361000000000 0
 132C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\css-select132952233025643222 1
 153C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\css-tree\lib\syntax\node\Url.js121436361000000000 0
@@ -4245,6 +4245,6 @@
 137C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\.bin\terser.cmd132952233027763224 0
 137C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\node_modules\.bin\terser.ps1132952233027763224 0
 132C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\dist\index.b458fa94.css132979145387964655 0
-131C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\dist\index.bafbf13d.js132979147029663510 0
-135C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\dist\index.bafbf13d.js.map132979147030223549 0
-124C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\dist\index.html132979145391220976 0
+131C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\dist\index.bafbf13d.js132979939247293780 0
+135C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\dist\index.bafbf13d.js.map132979939247333781 0
+124C:\Users\Aju\Documents\Udemy\complete-javascript-course-master\complete-javascript-course-master\Weather-app\dist\index.html132979837954586786 0

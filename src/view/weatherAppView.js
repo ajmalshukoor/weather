@@ -5,10 +5,11 @@ class WeatherAppView{
     _input = document.querySelector('.search');
     _data;
 
+    //render data using data from model
     render(data){
         if(!data) return 
         this._data = data;
-        console.log(this._data.temp)
+        console.log(this._data.temp);
         this._clear();
         if(!this._data.hasData){
             const markup = this._generateMarkup();
@@ -16,11 +17,11 @@ class WeatherAppView{
         }
     }
 
+    //remove the old rendered data
     _clear(){
         const container = this._parentElement.querySelector('.container');
         if(container != null){
             container.remove();
-
         }
     }
     // update(data){
@@ -40,6 +41,7 @@ class WeatherAppView{
     //     });
     // }
 
+    //handler for searching weather using place, province, country
     addHandlerFind(handler){
         const input = this._parentElement.querySelector('.search');
         this._parentElement.querySelector('#myForm').addEventListener('submit', function(e){
@@ -53,6 +55,7 @@ class WeatherAppView{
         });
     }
 
+    //handler for live location result
     addHandlerLive(handler){
         this._parentElement.querySelector('.btn__live').addEventListener('click', handler);
     }

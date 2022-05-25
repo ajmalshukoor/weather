@@ -53,6 +53,7 @@ export const findGeoLocation = async function(place){
     }
 }
 
+////test 
 // findGeoLocation(['London', 'CA', 'US', 5]);
 // export const getCoords = function(pos){
 //     const {latitude, longitude} = pos.coords;
