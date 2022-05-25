@@ -1,4 +1,4 @@
-import {API_URL, API_KEY} from './config.js';
+import {API_URL, API_KEY, GEOCODE_API_URL} from './config.js';
 
 export const state = {
     weatherData:{},
@@ -26,19 +26,34 @@ export const createWeatherObject = function(data){
 }
 
 export const loadWeather = async function(pos){
-    console.log(pos);
     const {latitude, longitude} = pos.coords;
     try{
         const res = await fetch(`${API_URL}lat=${latitude}&lon=${longitude}&appid=${API_KEY}`);
         const data = await res.json();
         state.weatherData = createWeatherObject(data);
+        
         if(!res.ok) throw new Error(`${data} (${res.status})`)
-        state.coords = {lat: latitude, lon: longitude};
     }
     catch (err){
         console.error(err);
     }
 }
+
+export const findGeoLocation = async function(place){
+    try{
+        const res = await fetch(`${GEOCODE_API_URL}${place[0]},${place[1]},${place[2]}&limit=3&appid=${API_KEY}`);
+        const data = await res.json();
+        if(!res.ok) throw new Error(`${data} (${res.status})`);
+        const {lat:latitude, lon:longitude} = data[0];
+        state.coords = {latitude: latitude, longitude: longitude};
+        loadWeather(state);
+    }
+    catch(err){
+        console.log(err);
+    }
+}
+
+// findGeoLocation(['London', 'CA', 'US', 5]);
 // export const getCoords = function(pos){
 //     const {latitude, longitude} = pos.coords;
 // }
