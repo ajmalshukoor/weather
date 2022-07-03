@@ -777,7 +777,7 @@ class WeatherAppView {
         <div>
             <header>
                 <h1 class="place">${this._data.city}, ${this._data.countryCode}</h1>
-                <p class="date">${_helperJs.getDay()}</p>
+                <p class="date">${_helperJs.getDays()}</p>
             </header>
         </div>
         <div class="contend">
@@ -828,7 +828,7 @@ parcelHelpers.export(exports, "tempFormat", ()=>tempFormat
 );
 parcelHelpers.export(exports, "timeFormat", ()=>timeFormat
 );
-parcelHelpers.export(exports, "getDay", ()=>getDay
+parcelHelpers.export(exports, "getDays", ()=>getDays
 );
 const tempFormat = function(temperature) {
     return (temperature - 273.15).toFixed();
@@ -841,20 +841,21 @@ const timeFormat = function(suntime) {
     };
     return new Date(suntime * 1000).toLocaleTimeString('en-US', options);
 };
-const getDay = function() {
+const getDays = function() {
     const days = [
+        'Sunday',
         'Monday',
         'Tuesday',
         'Wednesday',
         'Thursday',
         'Friday',
-        'Saturday',
-        'Sunday'
+        'Saturday'
     ];
     const date = new Date();
     const dateFormat = String(date).split(' ');
     const day = date.getDay();
-    return `${days[day - 1]}, ${dateFormat[1]} ${dateFormat[2]} ${dateFormat[3]}`;
+    console.log(date, day);
+    return `${days[day]}, ${dateFormat[1]} ${dateFormat[2]} ${dateFormat[3]}`;
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["dhBiH","gCE4p"], "gCE4p", "parcelRequirebbde")

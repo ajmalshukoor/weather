@@ -7,10 +7,12 @@ export const timeFormat = function(suntime){
     return new Date(suntime*1000).toLocaleTimeString('en-US', options)
 }
 
-export const getDay = function (){
-    const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+export const getDays = function (){
+    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     const date = new Date();
     const dateFormat = String(date).split(' ');
     const day = date.getDay();
-    return `${days[day - 1]}, ${dateFormat[1]} ${dateFormat[2]} ${dateFormat[3]}`
+    console.log(date, day)
+
+    return `${days[day]}, ${dateFormat[1]} ${dateFormat[2]} ${dateFormat[3]}`
 }

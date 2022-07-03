@@ -1,4 +1,4 @@
-import {tempFormat,timeFormat,getDay} from '../helper.js';
+import {tempFormat,timeFormat,getDays} from '../helper.js';
 
 class WeatherAppView{
     _parentElement = document.querySelector('.content');
@@ -124,7 +124,7 @@ class WeatherAppView{
         <div>
             <header>
                 <h1 class="place">${this._data.city}, ${this._data.countryCode}</h1>
-                <p class="date">${getDay()}</p>
+                <p class="date">${getDays()}</p>
             </header>
         </div>
         <div class="contend">

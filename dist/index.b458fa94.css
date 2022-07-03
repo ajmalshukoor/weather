@@ -17,7 +17,40 @@ body .seperator {
 body .container {
   border: 1px solid #fff;
   border-radius: 1px;
-  margin: 13% 10% 10%;
+  margin: 5% 10% 10%;
+}
+
+body #myForm {
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  display: flex;
+}
+
+body #myForm .search {
+  width: 50%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 5%;
+  padding: 12px 20px;
+  display: inline-block;
+}
+
+body #myForm button {
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  margin: 5%;
+  padding: 20px;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+body #myForm .btn__search, body #myForm .btn__live {
+  margin-left: -3%;
 }
 
 header {
@@ -28,7 +61,7 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: stretch;
-  margin-top: 10%;
+  margin-top: -10%;
   margin-bottom: 10%;
   display: flex;
 }
@@ -48,11 +81,11 @@ header {
 }
 
 .contend .weather__temp .sub {
-  margin-top: -60px;
+  margin-top: -80px;
 }
 
 .contend .weather__others {
-  width: 30%;
+  width: 10%;
   display: flex;
 }
 

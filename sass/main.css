@@ -18,9 +18,56 @@ body .seperator {
 }
 
 body .container {
-  margin: 13% 10% 10%;
+  margin: 5% 10% 10%;
   border: 1px solid white;
   border-radius: 1px;
+}
+
+body #myForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #myForm .search {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 5%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body #myForm button {
+  border: none;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5%;
+}
+
+body #myForm .btn__search {
+  margin-left: -3%;
+}
+
+body #myForm .btn__live {
+  margin-left: -3%;
 }
 
 header {
@@ -41,7 +88,7 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 10%;
+  margin-top: -10%;
   margin-bottom: 10%;
 }
 
@@ -62,14 +109,14 @@ header {
 }
 
 .contend .weather__temp .sub {
-  margin-top: -60px;
+  margin-top: -80px;
 }
 
 .contend .weather__others {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 30%;
+  width: 10%;
 }
 
 .contend .weather__others .main {
